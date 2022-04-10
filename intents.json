@@ -1,0 +1,111 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?"],
+            "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {
+            "tag": "payments",
+            "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?"],
+            "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {
+            "tag": "opentoday",
+            "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+            "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {
+            "tag": "today",
+            "patterns": ["today"],
+            "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
+            "context_filter": "rentalday"
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {
+            "tag": "i have questions",
+            "patterns": ["i have questions  ", "I have questions"],
+            "responses": [" \n I'll be more than happy to answer all your questions!\n \n Press 0 for Main Menu"]
+
+        },
+        {
+            "tag": "need a help",
+            "patterns": ["need", "0", "Need a Help", "Help", "help", "I have questions"],
+            "responses": ["\n Press 1 for Billing support \n Press 2 for Get Support"]
+
+        },
+        {
+            "tag": "1",
+            "patterns": ["1", "one"],
+            "responses": ["\n i> Chat with billing assistant \n  ii>Billing troubleshooter   \n  iii>Billing FAQs"]
+
+        },
+        {
+            "tag": "FAQ's",
+            "patterns": ["faq", "FAQ's", "FAQ", "?"],
+            "responses": [" \n This is FAQ for Billing \n \n Press 0 for Main Menu"]
+
+        },
+        {
+            "tag": "i",
+            "patterns": ["i", "I"],
+            "responses": [" \n Free trial \n Pricing \n Contact Sales \n About ChatBot \n Features \n Integrations \n Contact us \n \n Press 0 for Main Menu "]
+
+        },
+        {
+            "tag": "ii",
+            "patterns": ["ii", "II"],
+            "responses": [" \n \n Press 0 for Main Menu"]
+
+        },
+        {
+            "tag": "iii",
+            "patterns": ["iii", "III"],
+            "responses": ["\n \n Press 0 for Main Menu"]
+
+        },
+        {
+            "tag": "iii",
+            "patterns": ["iii", "III"],
+            "responses": ["\n \n Press 0 for Main Menu"]
+
+        },
+        {
+            "tag": "nothing",
+            "patterns": ["nothing", "asdf"],
+            "responses": ["\n Answer a few questions to get started."]
+
+        },
+        {
+            "tag": "start",
+            "patterns": ["start", "Run", "RUN", "START", "run"],
+            "responses": ["\n Answer a few questions to get started. \n What is Your Name "]
+
+        },
+        {
+            "tag": "about chatbot",
+            "patterns": ["developer", "about", "about chatbot", "about the chatbot", "about the developer"],
+            "responses": ["\n Developer name : Deepak Kokane \n ChatBot name : Customer Support ChatBot \n Programming Language : Python \n data : intents.json \n packages used : nltk , tensorflow , random , json , flearn \n supported OS : mac , Linux , Windows , Android \n Integration : Available "]
+
+        }
+    ]
+}
