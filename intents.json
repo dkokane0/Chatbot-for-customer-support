@@ -16,9 +16,9 @@
             "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {
-            "tag": "hours",
-            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?"],
-            "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+            "tag": "Products",
+            "patterns": ["products", "product", "types"],
+            "responses": ["please check official website for products"]
         },
         {
             "tag": "payments",
@@ -26,15 +26,15 @@
             "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
         },
         {
-            "tag": "opentoday",
-            "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-            "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+            "tag": "payment error",
+            "patterns": ["error payment", "payment related query", "payment fail"],
+            "responses": ["please enter transaction id", "please try again"]
         },
         {
-            "tag": "today",
-            "patterns": ["today"],
-            "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
-            "context_filter": "rentalday"
+            "tag": "address",
+            "patterns": ["address"],
+            "responses": ["please visit official Website"],
+            "context_filter": "address"
         },
         {
             "tag": "goodbye",
@@ -50,7 +50,7 @@
         {
             "tag": "need a help",
             "patterns": ["need", "0", "Need a Help", "Help", "help", "I have questions"],
-            "responses": ["\n Press 1 for Billing support \n Press 2 for Get Support"]
+            "responses": ["\n Press 1 for Billing support \n Press 2 for Get Support product \n Press 3 for contact information \n Press 4 for Information Related to New Products and services \n Press 5 for Technical Query solver"]
 
         },
         {
@@ -60,11 +60,24 @@
 
         },
         {
+            "tag": "2",
+            "patterns": ["2", "product support", "Two", "two"],
+            "responses": [" \n Please check manual on official website. \n \n Press 0 for Main Menu"]
+
+        },
+        {
             "tag": "FAQ's",
             "patterns": ["faq", "FAQ's", "FAQ", "?"],
             "responses": [" \n This is FAQ for Billing \n \n Press 0 for Main Menu"]
 
         },
+        {
+            "tag": "3",
+            "patterns": ["3", "contact information", "three", "Three"],
+            "responses": [" \n company address : \n company service centers \n Location : city \n company contact : \n \n Press 0 for Main Menu"]
+
+        },
+
         {
             "tag": "i",
             "patterns": ["i", "I"],
