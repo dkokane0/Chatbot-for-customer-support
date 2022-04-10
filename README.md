@@ -20,7 +20,16 @@ nltk.download('popular', quiet=True) # for downloading popular packages
 nltk.download('punkt') 
 nltk.download('wordnet') 
 ```
+```
+pip install tensorflow
+```
 
+```
+pip install random
+```
+```
+pip install tflearn
+```
 ## How to run
 ```
 venv\Scripts\activate
@@ -30,3 +39,8 @@ venv\Scripts\activate
 python chatbot_customer_support.py
 ```
 ![Alt text](https://github.com/dkokane0/Chatbot-for-customer-support/blob/main/output/file_system.PNG)
+
+![Alt text](https://github.com/dkokane0/Chatbot-for-customer-support/blob/main/output/venv_create.PNG)
+
+![Alt text](https://github.com/dkokane0/Chatbot-for-customer-support/blob/main/output/output.PNG)
+
