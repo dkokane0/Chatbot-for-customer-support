@@ -38,7 +38,7 @@ venv\Scripts\activate
 ```
 python chatbot_customer_support.py
 ```
-![Alt text](https://github.com/dkokane0/Chatbot-for-customer-support/blob/main/output/file_system.PNG)
+![Alt text](https://github.com/dkokane0/Chatbot-for-customer-support/blob/main/output/file_tree.PNG)
 
 ![Alt text](https://github.com/dkokane0/Chatbot-for-customer-support/blob/main/output/venv_create.PNG)
 
